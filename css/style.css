@@ -69,17 +69,18 @@ h1 {
 
 /* === STYLE ELEMENTS for resume.html ================= */
 #content1 {
-  background-color: beige;  /* better for a resume */
+  
 }
 
-/* === STYLE ELEMENTS for hometown.html */
-h2 {
-  color: blue;
+/* === STYLE ELEMENTS for hometown.html ===============*/
+#content2 {
+  color: blue;  /* NHA for water */
 }
 
-/* === STYLE ELEMENTS for dogs.html === */
-h3 {
-  color: red;
+/* === STYLE ELEMENTS for dogs.html ================== */
+#content3 {
+  font-family: "Open Sans", sans-serif;
+  color: green;
 }
 
 
