@@ -1,0 +1,51 @@
+/* Nilufer Anlar, ITMD-Project2, style.css */
+
+/* 
+   I used Modular Scale Minor 3rd, 120% in the 
+   Math calculations below.
+*/
+
+/* STYLE ELEMENTS for resume.html */
+body {
+  background-color: linen;
+}
+
+/* === COMMON, SAME STYLE ELEMENTS to All Pages === */
+
+#navigation ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+}
+
+#navigation ul li {
+	float: left;
+	margin: 0 15px;
+}
+
+#navigation ul li a {
+	display: block;
+	background-color: green;
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+	text-align: center;
+	width: 100px;
+	padding: 10px 0px 8px 0px;
+	border-radius: 6px;
+}
+
+#navigation ul li a:hover {
+	background-color: #800;
+  color: yellow;
+  border-radius: 20px;
+
+}
+
+.clear {
+	clear: both;
+}
+
+
+
