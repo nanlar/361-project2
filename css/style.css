@@ -31,9 +31,11 @@ h1 {
 	padding: 0;
 	margin: 0;
 	overflow: hidden;
+  display: flex;
+  justify-content: center;  /* NHA - WORKS! */
 }
 
-#navigation ul li {
+#navigation li {
 	float: left;
 	margin: 0 10px;
 }
@@ -58,7 +60,7 @@ h1 {
 }
 
 .clear {
-	clear: both;
+	clear: both;  /* remove float */
 }
 
 /* === STYLE ELEMENTS for resume.html === */
