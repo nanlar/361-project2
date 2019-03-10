@@ -14,7 +14,7 @@ body {
 }
 
 #page {
-  margin: 20px 20px 20px 20px;
+  margin: 20px 25px 20px 25px;
 }
 
 h1 {
@@ -103,7 +103,7 @@ h1 {
 }
 
 #content3 #dog3 {
-  width: 150px;
+  width: 200px;
   float: left;
   margin-right: 15px;
   margin-bottom: 15px;
@@ -113,4 +113,4 @@ h1 {
 	clear: both;  /* remove floats */
 }
 
-
+/* === the end ======================================= */
