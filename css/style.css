@@ -6,24 +6,28 @@
 */
 
 /* === COMMON, SAME STYLE ELEMENTS to All Pages === */
-/* make the navigation menu and the page margins 
-   consistent for all three pages  */
+/* make the background color, navigation menu and
+   page margins consistent for all three pages  */
+
+body {
+  background-color: linen;  /* TEST w other colors */
+}
 
 #page {
   margin: 20px 20px 20px 20px;
 }
 
 h1 {
-  font-size: 14px;  /* force it to disappear behind nav menu */
+  font-size: 14px;  /* forces it to disappear behind nav menu */
   color: gray;
 }
 
 .nav {
   background-color: gray;
-  position: absolute;  /* force it over h1 heading */
+  position: absolute;  /* forces it over h1 heading */
   width: 100%;
-  top: 0;  /* force it to the top */
-  left: 0;  /* force it to the entire screen */
+  top: 0;  /* forces it to the top */
+  left: 0;  /* forces it to the entire screen */
 }
 
 #navigation ul {
@@ -63,9 +67,9 @@ h1 {
 	clear: both;  /* remove float */
 }
 
-/* === STYLE ELEMENTS for resume.html === */
-body {
-  background-color: linen;  /* better for a resume */
+/* === STYLE ELEMENTS for resume.html ================= */
+#content1 {
+  background-color: beige;  /* better for a resume */
 }
 
 /* === STYLE ELEMENTS for hometown.html */
