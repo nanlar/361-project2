@@ -84,21 +84,36 @@ h1 {
 }
 
 #content3 h2 {
-  color: red;
+  font-weight: 700;   /* for bold effect */ 
 }
 
 #content3 p {
   font-size: 14px; /* NHA */
+  line-height: 17px;  /* NHA */
 }
 
-#content3 img {
+#content3 #dog1 {
+  width: 300px;
+  float: left;
+  margin-right: 15px;
+}
+
+#content3 #dog2 {
   width: 250px;
+  float: right;
+  margin-left: 15px;
+  margin-bottom: 10px;
 }
 
+#content3 #dog3 {
+  width: 150px;
+  float: left;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
 
-
-
-
-
+.clear {
+	clear: both;  /* remove floats */
+}
 
 
