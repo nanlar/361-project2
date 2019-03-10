@@ -77,6 +77,42 @@ h1 {
   color: blue;  /* NHA for water */
 }
 
+/* NHA, not sure for below */
+img, audio, video {
+  display: block;
+  max-width: 100%;
+}
+
+#istsound {
+  border: 2px solid blue;
+  background-color: gray;
+  width: 100px;
+}
+
+#istmap {
+  width: 300px;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+#istpics {
+  float:right;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+#istvideo {
+  float: left;
+  border: 2px solid blue;
+  margin-right: 20px;
+  margin-bottom: 5px;
+}
+
+/* do I need clear here too? */
+
+
+
 /* === STYLE ELEMENTS for dogs.html ================== */
 #content3 {
   font-family: "Roboto", Arial, sans-serif;
