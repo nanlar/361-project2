@@ -12,6 +12,19 @@ body {
 
 /* === COMMON, SAME STYLE ELEMENTS to All Pages === */
 
+#page {
+  margin: 20px 20px 20px 20px;
+}
+
+h1 {
+  font-size: 16px;
+  color: gray;
+}
+
+.nav {
+  background-color: gray;
+}
+
 #navigation ul {
 	list-style-type: none;
 	padding: 0;
@@ -21,25 +34,25 @@ body {
 
 #navigation ul li {
 	float: left;
-	margin: 0 15px;
+	margin: 0 10px;
 }
 
 #navigation ul li a {
 	display: block;
-	background-color: green;
+	background-color: skyblue;
 	color: white;
 	font-weight: bold;
 	text-decoration: none;
 	text-align: center;
 	width: 100px;
 	padding: 10px 0px 8px 0px;
-	border-radius: 6px;
+	border-radius: 0;
 }
 
 #navigation ul li a:hover {
-	background-color: #800;
-  color: yellow;
-  border-radius: 20px;
+	background-color: pink;
+  color: black;
+  border-radius: 0;
 
 }
 
