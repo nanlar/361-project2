@@ -67,6 +67,12 @@ h1 {
 	clear: both;  /* remove float */
 }
 
+/* NHA, not sure for below */
+img, audio, video {
+  display: block;
+  max-width: 100%;
+}
+
 /* === STYLE ELEMENTS for resume.html ================= */
 #content1 {
   
@@ -78,12 +84,6 @@ h1 {
   font-size: 1.125em;  /* at 18px, (18px/16px=1.125em) */
   line-height: 1.35em;  /* 120% at 21.6px, (21.6px/16px=1.35em) */
   color: darkblue;
-}
-
-/* NHA, not sure for below */
-img, audio, video {
-  display: block;
-  max-width: 100%;
 }
 
 #istsound {
