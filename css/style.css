@@ -118,9 +118,9 @@ img, audio, video {
 
 /* === STYLE ELEMENTS for dogs.html ================== */
 #content3 {
-  font-family: "Roboto", Arial, sans-serif;
-  font-size: 1.0625em;  /* at 17px, (17px/16px=1.0625em) */
-  line-height: 1.275em; /* 120% at 20.4px, (20.4px/16px=1.275em) */
+  font-family: "Roboto", sans-serif;
+  /* font-size: 1.0625em;   at 17px, (17px/16px=1.0625em) */
+  /* line-height: 1.275em;  120% at 20.4px, (20.4px/16px=1.275em) */
   color: green;
 }
 
@@ -135,8 +135,9 @@ img, audio, video {
 }
 
 #content3 #dog2 {
-  width: 250px;
+  width: 280px;
   float: right;
+  margin-top: 15px;
   margin-left: 15px;
   margin-bottom: 10px;
 }
@@ -145,7 +146,7 @@ img, audio, video {
   width: 200px;
   float: left;
   margin-right: 15px;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
 .clear {
