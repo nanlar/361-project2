@@ -68,14 +68,39 @@ h1 {
 }
 
 /* NHA, not sure for below */
-img, audio, video. iframe {
+img, audio, video, iframe {
   display: block;
   max-width: 100%;
 }
 
-/* === STYLE ELEMENTS for resume.html ================= */
-#content1 {
-  
+/* === STYLE ELEMENTS for resume.html ================= */ 
+#content1 h2 {
+  font-size: 1em;  /* NHA */
+  color: linen;  /* NHA - change later give a ghostly title */
+  margin: 0;  /* make it disappear w/o deleting in index.html */
+}
+
+#myname, #myphone, #myaddress {
+  text-align: center;
+}
+
+#myphone, #myaddress {
+  font-size: 0.8em;
+}
+
+#mypic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%; 
+}
+
+#experience li {
+  font-size: 0.8em;
+}
+
+#content1 h4, h5 {
+  font-style: oblique;
 }
 
 /* === STYLE ELEMENTS for hometown.html ===============*/
