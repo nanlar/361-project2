@@ -68,7 +68,7 @@ h1 {
 }
 
 /* NHA, not sure for below */
-img, audio, video {
+img, audio, video. iframe {
   display: block;
   max-width: 100%;
 }
@@ -81,15 +81,15 @@ img, audio, video {
 /* === STYLE ELEMENTS for hometown.html ===============*/
 #content2 {
   font-family: "Open Sans", sans-serif;
-  font-size: 1.125em;  /* at 18px, (18px/16px=1.125em) */
-  line-height: 1.35em;  /* 120% at 21.6px, (21.6px/16px=1.35em) */
+  font-size: 1em;   /* at 16px, (16px/16px=1em) */
+  line-height: 1.25em;   /* ~120% at 20px, (20px/16px=1.125em) */
   color: darkblue;
 }
 
 #istsound {
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
   background-color: gray;
-  width: 150px;
+  width: 200px;
 }
 
 #istmap {
@@ -113,7 +113,6 @@ img, audio, video {
 }
 
 /* do I need clear here too? */
-
 
 
 /* === STYLE ELEMENTS for dogs.html ================== */
