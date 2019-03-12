@@ -21,7 +21,8 @@ h2 {
   width: 100%;
   top: 0;  /* forces it to the top */
   left: 0;  /* forces it to the entire screen */
-  background-color: gray;  /* nOW disappeared */
+  font-family: "Times New Roman", serif;  /* same for all nav */
+  background-color: gray;
 }
 
 #navigation ul {
