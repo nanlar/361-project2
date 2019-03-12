@@ -145,24 +145,30 @@ h5 {
 
 #main2 {
   float: left;
-  width: 55%;
-  margin: 0 15px 0 20px;  /* NOW */
+  width: 60%;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 3%;
+  margin-right: 2%;
+  /* margin: 0 2%;  NOW */
   background-color: orange;
 }
 
 #extras2 {
   float: left;
-  width: 35%;
-  margin: 0 0;  /* now */
+  width: 30%;
+  margin: 0 2% auto;
+  font-size: 80%;
+  font-style: oblique;
   background-color: yellow;
 }
 
 #footer2 {
-  clear: left;
+  clear: both;
 }
 
 #header2 h2 {
-  color: darkblue;  /* same as the text */
+  color: darkblue;  /* same as the main text */
   margin-left: 20px;
 }
 
@@ -184,9 +190,8 @@ h5 {
 }
 
 #istvideo {
-  border: 2px solid blue;
   float: right;  /* NOW */
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 
 /* === STYLE ELEMENTS for dogs.html ================== */
