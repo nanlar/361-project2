@@ -26,40 +26,40 @@ h2 {
 }
 
 #navigation ul {
-	list-style-type: none;
-	padding: 0;
-	margin: 0;
-	overflow: hidden;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
   display: flex;
   justify-content: center;
 }
 
 #navigation li {
-	float: left;
-	margin: 0 10px;
+  float: left;
+  margin: 0 10px;
 }
 
 #navigation ul li a {
-	display: block;
-	background-color: royalblue;
-	color: white;
-	font-weight: bold;
-	text-decoration: none;
-	text-align: center;
-	width: 100px;
-	padding: 10px 0px 8px 0px;
-	border-radius: 0;
+  display: block;
+  background-color: royalblue;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  width: 100px;
+  padding: 10px 0px 8px 0px;
+  border-radius: 0;
 }
 
 #navigation ul li a:hover {
-	background-color: indianred;
+  background-color: indianred;
   color: black;
   border-radius: 0;
 
 }
 
 .clear {
-	clear: both;  /* remove floats */
+  clear: both;  /* remove floats */
 }
 
 /* NHA, not sure for below */
