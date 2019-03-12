@@ -6,15 +6,11 @@
 */
 
 /* === COMMON, SAME STYLE ELEMENTS to All Pages === */
-/* make the background color, navigation menu and
-   page margins consistent for all three pages  */
+
+/* make the navigation menu consistent for all three pages  */
 
 html {
   font-family: "Times New Roman", Georgia, serif;  /* default for all pages */
-}
-
-body {
-  background-color: linen;  /* Gainsboro is another alternative */
 }
 
 #page {
@@ -39,7 +35,7 @@ h2 {
 	margin: 0;
 	overflow: hidden;
   display: flex;
-  justify-content: center;  /* NHA - WORKS! */
+  justify-content: center;
 }
 
 #navigation li {
@@ -67,7 +63,7 @@ h2 {
 }
 
 .clear {
-	clear: both;  /* remove float */
+	clear: both;  /* remove floats */
 }
 
 /* NHA, not sure for below */
@@ -77,6 +73,10 @@ img, audio, video, iframe {
 }
 
 /* === STYLE ELEMENTS for resume.html ================= */ 
+
+body {
+  background-color: linen;
+}
 
 #content1 {
   /* font-family: "Times New Roman, serif; */
@@ -258,7 +258,7 @@ h5 {
 
 /* === the end ======================================= */
 
-/* === media queries placeholders ====================*/
+/* === media queries placeholders =====================*/
 
 
 
