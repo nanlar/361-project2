@@ -13,7 +13,7 @@ html {
 }
 
 h2 {
-  margin-top: 60px;  /* start below nav menu */
+  margin-top: 3em;  /* at 48 px, (48px/16px=3.75em) */
 }
 
 .nav {
@@ -36,7 +36,7 @@ h2 {
 
 #navigation li {
   float: left;
-  margin: 0 10px;
+  margin: 0 0.625em;  /* at 10px, (10px/16px=0.625em) */
 }
 
 #navigation ul li a {
@@ -47,7 +47,7 @@ h2 {
   text-decoration: none;
   text-align: center;
   width: 100px;
-  padding: 10px 0px 8px 0px;
+  padding: 0.625em 0 0.5em 0;  /* at 10px (10px/16px=0.625em), at 8px (8px/16px=0.5em) */
   border-radius: 0;
 }
 
@@ -83,7 +83,7 @@ body {
 }
 
 #myphone, #myaddress {
-  font-size: 0.8em;
+  font-size: 0.8125em;  /* at 13px, (13px/16px=0.8125em) */
   font-style: oblique;
 }
 
@@ -91,37 +91,37 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 10%; 
+  width: 14%; 
 }
 
 #coname {
   font-family: sans-serif;
-  font-size: 16px;
+  font-size: 1em;  /* at 16px */
   text-align: center;
-  margin-left: 10px;
-  margin-top: 0.5em;
+  margin-left: 0.625em;  /* at 10px, (10px/16px=0.625em) */
+  margin-top: 0.5em;  /* at 8px */
   margin-bottom: 0;
 }
 
 #coposition {
   text-align: left;
-  margin-left: 24px;  /* aligns with tasks */
+  margin-left: 1.5em;  /* at 24px, (24px/16px=1.5em) */
   margin-top: 0;
   margin-bottom: 0;
   font-style: oblique;
 }
 
 h5 {
-  font-size: 14px;
+  font-size: 0.875em;  /* at 14px, 14px/16px=0.875em */
   font-style: oblique;
-  margin-left: 24px;
+  margin-left: 1.5em;  /* at 24px, (24px/16px=1.5em) */
   margin-bottom: 0;
 }
 
 #experience li {
-  font-size: 0.8em;
+  font-size: 0.8125em;  /* at 13px, 13px/16px=0.8125 */
   font-style: oblique;
-  margin-left: 24px;
+  margin-left: 1.5em;  /* at 24px, (24px/16px=1.5em) */
 }
 
 #certificates, #cert {
@@ -134,9 +134,9 @@ h5 {
 /* my wrapper */
 #body2 {
   width: 100%;  /* fluid */
-  margin: 0px, auto;
-  padding: 0px;
-  font-family: "Open Sans", sans-serif;
+  margin: 0, auto;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;  /* a Google font */
   font-size: 1em;  /* at 16px, (16px/16px=1em) */
   line-height: 1.25em;  /* ~120% at 20px, (20px/16px=1.125em) */
   color: darkblue;
@@ -172,7 +172,6 @@ h5 {
 #istsound {
   float: left;
   margin-right: 10px;
-  background-color: gray;
 }
 
 #istmap {
@@ -182,11 +181,11 @@ h5 {
 }
 
 #istpics {
-  margin-top: 15px; /* now */
+  margin-top: 15px;
 }
 
 #istvideo {
-  float: right;  /* NOW */
+  float: right;
   margin-bottom: 5px;
 }
 
@@ -209,7 +208,7 @@ h5 {
   float: left;
   width: 650px;
   margin: 0 20px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", sans-serif;  /* a Google font */
   color: green;
 }
 
@@ -244,12 +243,7 @@ h5 {
   margin-bottom: 10px;
 }
 
-
 /* === the end ======================================= */
 
-/* === media queries placeholders =====================*/
-
-
-
-
+/* === placeholder for media queries ==================*/
 
