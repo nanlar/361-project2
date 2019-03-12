@@ -134,18 +134,11 @@ h5 {
 }
 
 /* === STYLE ELEMENTS for hometown.html =======================*/
-/* I used a two-column FLUID-WIDTH layout for this page.
-   NOTE: */
+/* I used a two-column FLUID-WIDTH layout for this page. */
    
-
-#body2 {
-  margin: 0;
-  padding: 0;
-}
-
 /* my wrapper */
 #body2 {
-  width: 100%;  /*960px;  pls see my note above */
+  width: 100%;  /* fluid */
   position: absolute;
   margin: 0px, auto;
   padding: 0px;
@@ -153,28 +146,28 @@ h5 {
   font-size: 1em;   /* at 16px, (16px/16px=1em) */
   line-height: 1.25em;   /* ~120% at 20px, (20px/16px=1.125em) */
   color: darkblue;
-  background-color:pink;
+  background-color: lightblue;
 }
 
 #main2 {
   float: left;
-  width: 60%;   /* 600px; */
+  width: 55%;
   margin: 0 20px;
   background-color: orange;
 }
 
 #extras2 {
   float: left;
-  width: 30%;   /* px; */
-  margin: 0;
+  width: 35%;
+  margin-right: 0;  /* now */
   background-color: yellow;
 }
 
-#footer {
+#footer2 {
   clear: left;
 }
 
-#body2 h2 {
+#header2 h2 {
   color: darkblue;  /* same as the text */
   margin-left: 20px;
 }
@@ -184,7 +177,7 @@ h5 {
 }
 
 #istmap {
-  width: 300px;
+  width: 250px;
 }
 
 #istpics {
