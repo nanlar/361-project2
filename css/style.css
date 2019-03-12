@@ -13,10 +13,6 @@ html {
   font-family: "Times New Roman", Georgia, serif;  /* default for all pages */
 }
 
-#page {
-  margin: 20px 25px 20px 25px; /* NOT applies to hometown now */
-}
-
 h2 {
   margin-top: 60px;  /* start below nav menu */
 }
@@ -78,6 +74,10 @@ body {
   background-color: linen;
 }
 
+#page1 {
+  margin: 20px 25px 20px 25px;
+}
+
 #content1 {
   /* font-family: "Times New Roman, serif; */
 }
@@ -134,12 +134,9 @@ h5 {
 }
 
 /* === STYLE ELEMENTS for hometown.html =======================*/
-/* I used a two-column FIXED-WIDTH layout for this page.
-   NOTE: 
-   BUT for some reason, it did NOT cover my entire PC screen.
-   Because my LG Gram 13's screen is much wider than 960px
-   after I color tested the backgrounds (it's around 1100px wide.
-   Therefore, Prof. Krieglstein input is needed on this matter. */
+/* I used a two-column FLUID-WIDTH layout for this page.
+   NOTE: */
+   
 
 #body2 {
   margin: 0;
