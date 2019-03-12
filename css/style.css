@@ -159,7 +159,7 @@ h5 {
 #extras2 {
   float: left;
   width: 35%;
-  margin-right: 0;  /* now */
+  margin: 0 0;  /* now */
   background-color: yellow;
 }
 
@@ -178,6 +178,7 @@ h5 {
 
 #istmap {
   width: 250px;
+  margin-bottom: 10px;
 }
 
 #istpics {
@@ -188,6 +189,7 @@ h5 {
 #istvideo {
   border: 2px solid blue;
   width: 300px;
+  margin-bottom: 15px;
 }
 
 
