@@ -6,11 +6,10 @@
 */
 
 /* === COMMON, SAME STYLE ELEMENTS to All Pages === */
-
 /* make the navigation menu consistent for all three pages  */
 
 html {
-  font-family: "Times New Roman", Georgia, serif;  /* default for all pages */
+  font-family: "Times New Roman", Georgia, serif;  /* default native */
 }
 
 h2 {
@@ -18,11 +17,11 @@ h2 {
 }
 
 .nav {
-  background-color: gray;
   position: absolute;  /* forces it over h1 heading */
   width: 100%;
   top: 0;  /* forces it to the top */
   left: 0;  /* forces it to the entire screen */
+  background-color: gray;  /* nOW disappeared */
 }
 
 #navigation ul {
@@ -62,7 +61,6 @@ h2 {
   clear: both;  /* remove floats */
 }
 
-/* NHA, not sure for below */
 img, audio, video, iframe {
   display: block;
   max-width: 100%;
@@ -76,10 +74,6 @@ body {
 
 #page1 {
   margin: 20px 25px 20px 25px;
-}
-
-#content1 {
-  /* font-family: "Times New Roman, serif; */
 }
 
 #personal, h3 {
@@ -110,7 +104,7 @@ body {
 
 #coposition {
   text-align: left;
-  margin-left: 24px;  /* align with taks */
+  margin-left: 24px;  /* aligns with tasks */
   margin-top: 0;
   margin-bottom: 0;
   font-style: oblique;
@@ -139,12 +133,11 @@ h5 {
 /* my wrapper */
 #body2 {
   width: 100%;  /* fluid */
-  position: absolute;
   margin: 0px, auto;
   padding: 0px;
   font-family: "Open Sans", sans-serif;
-  font-size: 1em;   /* at 16px, (16px/16px=1em) */
-  line-height: 1.25em;   /* ~120% at 20px, (20px/16px=1.125em) */
+  font-size: 1em;  /* at 16px, (16px/16px=1em) */
+  line-height: 1.25em;  /* ~120% at 20px, (20px/16px=1.125em) */
   color: darkblue;
   background-color: lightblue;
 }
@@ -152,7 +145,7 @@ h5 {
 #main2 {
   float: left;
   width: 55%;
-  margin: 0 20px;
+  margin: 0 15px 0 20px;  /* NOW */
   background-color: orange;
 }
 
@@ -173,11 +166,14 @@ h5 {
 }
 
 #istsound {
+  width: 250px;  /* NOW */
   background-color: gray;
 }
 
 #istmap {
   width: 250px;
+  float: left;
+  margin-right: 15px;
   margin-bottom: 10px;
 }
 
@@ -188,10 +184,9 @@ h5 {
 
 #istvideo {
   border: 2px solid blue;
-  width: 300px;
-  margin-bottom: 15px;
+  float: right;  /* NOW */
+  margin-bottom: 5px;
 }
-
 
 /* === STYLE ELEMENTS for dogs.html ================== */
 
