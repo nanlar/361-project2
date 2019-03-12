@@ -18,7 +18,7 @@ body {
 }
 
 #page {
-  margin: 20px 25px 20px 25px;
+  margin: 20px 25px 20px 25px; /* NOT applies to hometown now */
 }
 
 h2 {
@@ -133,78 +133,134 @@ h5 {
   font-size: 90%;
 }
 
-/* === STYLE ELEMENTS for hometown.html ===============*/
-#content2 {
+/* === STYLE ELEMENTS for hometown.html =======================*/
+/* I used a two-column FIXED-WIDTH layout for this page.
+   NOTE: 
+   BUT for some reason, it did NOT cover my entire PC screen.
+   Because my LG Gram 13's screen is much wider than 960px
+   after I color tested the backgrounds (it's around 1100px wide.
+   Therefore, Prof. Krieglstein input is needed on this matter. */
+
+#body2 {
+  margin: 0;
+  padding: 0;
+}
+
+/* my wrapper */
+#body2 {
+  width: 100%;  /*960px;  pls see my note above */
+  position: absolute;
+  margin: 0px, auto;
+  padding: 0px;
   font-family: "Open Sans", sans-serif;
   font-size: 1em;   /* at 16px, (16px/16px=1em) */
   line-height: 1.25em;   /* ~120% at 20px, (20px/16px=1.125em) */
   color: darkblue;
+  background-color:pink;
+}
+
+#main2 {
+  float: left;
+  width: 60%;   /* 600px; */
+  margin: 0 20px;
+  background-color: orange;
+}
+
+#extras2 {
+  float: left;
+  width: 30%;   /* px; */
+  margin: 0;
+  background-color: yellow;
+}
+
+#footer {
+  clear: left;
+}
+
+#body2 h2 {
+  color: darkblue;  /* same as the text */
+  margin-left: 20px;
 }
 
 #istsound {
-  /* border: 2px solid blue; */
   background-color: gray;
-  width: 200px;
 }
 
 #istmap {
   width: 300px;
-  float: left;
-  margin-right: 20px;
-  margin-bottom: 5px;
 }
 
 #istpics {
-  float:right;
-  margin-left: 20px;
-  margin-bottom: 20px;
+  /*width: 300px;
+  max-width: 300px; */
 }
 
 #istvideo {
-  float: left;
   border: 2px solid blue;
-  margin-right: 20px;
-  margin-bottom: 5px;
+  width: 300px;
 }
-
-/* do I need clear here too? */
 
 
 /* === STYLE ELEMENTS for dogs.html ================== */
-#content3 {
+
+/* I used a two-column FIXED-WIDTH layout for this page.
+   NOTE: 
+   BUT for some reason, it did NOT cover my entire PC screen.
+   Because my PC(LG Gram) screen is much wider than 960px as
+   I tested the backgrounds with colors(it is ~1100px wide).
+   Therefore, I need Prof. Krieglstein's input. */
+
+#body3 {
+  width: 960px;
+  margin: 0, auto;
+  background-color: beige;
+}
+
+#main3 {
+  float: left;
+  width: 650px;
+  margin: 0 20px;
   font-family: "Roboto", sans-serif;
-  /* font-size: 1.0625em;   at 17px, (17px/16px=1.0625em) */
-  /* line-height: 1.275em;  120% at 20.4px, (20.4px/16px=1.275em) */
   color: green;
 }
 
-#content3 h2 {
-  font-weight: 700;  /* for bold effect */ 
+#extras3 {
+  float: left;
+  width: 250px;
+  margin: 0;
 }
 
-#content3 #dog1 {
+#header h2 {
+  font-weight: 700;  /* for bold effect */ 
+  margin-left: 20px;
+  color: green;
+}
+
+#main3 #dog1 {
   width: 300px;
   float: left;
   margin-right: 15px;
 }
 
-#content3 #dog2 {
-  width: 280px;
+#main3 #dog2 {
+  width: 300px;
   float: right;
-  margin-top: 15px;
   margin-left: 15px;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
-#content3 #dog3 {
+#main3 #dog3 {
   width: 200px;
   float: left;
-  margin-right: 15px;
   margin-bottom: 10px;
 }
 
-.clear {
-	clear: both;  /* remove floats */
-}
 
 /* === the end ======================================= */
+
+/* === media queries placeholders ====================*/
+
+
+
+
+
